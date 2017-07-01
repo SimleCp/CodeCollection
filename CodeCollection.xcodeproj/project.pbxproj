@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3282BD321F073D3D00C3FAF0 /* DataConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 3282BD311F073D3D00C3FAF0 /* DataConvert.m */; };
+		3282BD411F073EA700C3FAF0 /* PPCheckCodeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3282BD351F073EA700C3FAF0 /* PPCheckCodeButton.m */; };
+		3282BD421F073EA700C3FAF0 /* PPEdgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3282BD371F073EA700C3FAF0 /* PPEdgeButton.m */; };
+		3282BD431F073EA700C3FAF0 /* PPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3282BD391F073EA700C3FAF0 /* PPTextField.m */; };
+		3282BD441F073EA700C3FAF0 /* PPProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3282BD3C1F073EA700C3FAF0 /* PPProgressHUD.m */; };
+		3282BD451F073EA700C3FAF0 /* PPUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 3282BD3E1F073EA700C3FAF0 /* PPUserDefaults.m */; };
+		3282BD461F073EA700C3FAF0 /* PPUUIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3282BD401F073EA700C3FAF0 /* PPUUIDManager.m */; };
 		32F0898A1EE69E9B005E535C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F089891EE69E9B005E535C /* main.m */; };
 		32F0898D1EE69E9B005E535C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F0898C1EE69E9B005E535C /* AppDelegate.m */; };
 		32F089901EE69E9B005E535C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F0898F1EE69E9B005E535C /* ViewController.m */; };
@@ -37,6 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3282BD301F073D3D00C3FAF0 /* DataConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataConvert.h; sourceTree = "<group>"; };
+		3282BD311F073D3D00C3FAF0 /* DataConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataConvert.m; sourceTree = "<group>"; };
+		3282BD341F073EA700C3FAF0 /* PPCheckCodeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCheckCodeButton.h; sourceTree = "<group>"; };
+		3282BD351F073EA700C3FAF0 /* PPCheckCodeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCheckCodeButton.m; sourceTree = "<group>"; };
+		3282BD361F073EA700C3FAF0 /* PPEdgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPEdgeButton.h; sourceTree = "<group>"; };
+		3282BD371F073EA700C3FAF0 /* PPEdgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPEdgeButton.m; sourceTree = "<group>"; };
+		3282BD381F073EA700C3FAF0 /* PPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTextField.h; sourceTree = "<group>"; };
+		3282BD391F073EA700C3FAF0 /* PPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTextField.m; sourceTree = "<group>"; };
+		3282BD3B1F073EA700C3FAF0 /* PPProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPProgressHUD.h; sourceTree = "<group>"; };
+		3282BD3C1F073EA700C3FAF0 /* PPProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPProgressHUD.m; sourceTree = "<group>"; };
+		3282BD3D1F073EA700C3FAF0 /* PPUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPUserDefaults.h; sourceTree = "<group>"; };
+		3282BD3E1F073EA700C3FAF0 /* PPUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPUserDefaults.m; sourceTree = "<group>"; };
+		3282BD3F1F073EA700C3FAF0 /* PPUUIDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPUUIDManager.h; sourceTree = "<group>"; };
+		3282BD401F073EA700C3FAF0 /* PPUUIDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPUUIDManager.m; sourceTree = "<group>"; };
+		3282BD471F073FB300C3FAF0 /* PrefixHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
 		32F089851EE69E9B005E535C /* CodeCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F089891EE69E9B005E535C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32F0898B1EE69E9B005E535C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +106,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3282BD2F1F073CE500C3FAF0 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				3282BD301F073D3D00C3FAF0 /* DataConvert.h */,
+				3282BD311F073D3D00C3FAF0 /* DataConvert.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		3282BD331F073EA700C3FAF0 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				3282BD341F073EA700C3FAF0 /* PPCheckCodeButton.h */,
+				3282BD351F073EA700C3FAF0 /* PPCheckCodeButton.m */,
+				3282BD361F073EA700C3FAF0 /* PPEdgeButton.h */,
+				3282BD371F073EA700C3FAF0 /* PPEdgeButton.m */,
+				3282BD381F073EA700C3FAF0 /* PPTextField.h */,
+				3282BD391F073EA700C3FAF0 /* PPTextField.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		3282BD3A1F073EA700C3FAF0 /* FrameWorkCustom */ = {
+			isa = PBXGroup;
+			children = (
+				3282BD3B1F073EA700C3FAF0 /* PPProgressHUD.h */,
+				3282BD3C1F073EA700C3FAF0 /* PPProgressHUD.m */,
+				3282BD3D1F073EA700C3FAF0 /* PPUserDefaults.h */,
+				3282BD3E1F073EA700C3FAF0 /* PPUserDefaults.m */,
+				3282BD3F1F073EA700C3FAF0 /* PPUUIDManager.h */,
+				3282BD401F073EA700C3FAF0 /* PPUUIDManager.m */,
+			);
+			path = FrameWorkCustom;
+			sourceTree = "<group>";
+		};
 		32F0897C1EE69E9B005E535C = {
 			isa = PBXGroup;
 			children = (
@@ -107,7 +164,11 @@
 		32F089871EE69E9B005E535C /* CodeCollection */ = {
 			isa = PBXGroup;
 			children = (
+				3282BD331F073EA700C3FAF0 /* CustomView */,
+				3282BD3A1F073EA700C3FAF0 /* FrameWorkCustom */,
+				3282BD2F1F073CE500C3FAF0 /* Tool */,
 				32F089BB1EE69EF4005E535C /* Category */,
+				3282BD471F073FB300C3FAF0 /* PrefixHeader.h */,
 				32F0898B1EE69E9B005E535C /* AppDelegate.h */,
 				32F0898C1EE69E9B005E535C /* AppDelegate.m */,
 				32F0898E1EE69E9B005E535C /* ViewController.h */,
@@ -292,10 +353,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				32F089C11EE69EF4005E535C /* UIApplication+Extension.m in Sources */,
+				3282BD431F073EA700C3FAF0 /* PPTextField.m in Sources */,
 				32F089901EE69E9B005E535C /* ViewController.m in Sources */,
+				3282BD451F073EA700C3FAF0 /* PPUserDefaults.m in Sources */,
+				3282BD421F073EA700C3FAF0 /* PPEdgeButton.m in Sources */,
 				32F0898D1EE69E9B005E535C /* AppDelegate.m in Sources */,
+				3282BD321F073D3D00C3FAF0 /* DataConvert.m in Sources */,
+				3282BD441F073EA700C3FAF0 /* PPProgressHUD.m in Sources */,
+				3282BD461F073EA700C3FAF0 /* PPUUIDManager.m in Sources */,
 				32F0898A1EE69E9B005E535C /* main.m in Sources */,
 				32F089C01EE69EF4005E535C /* NSString+Extension.m in Sources */,
+				3282BD411F073EA700C3FAF0 /* PPCheckCodeButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +595,7 @@
 				32F089B41EE69E9B005E535C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32F089B51EE69E9B005E535C /* Build configuration list for PBXNativeTarget "CodeCollectionTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +604,7 @@
 				32F089B71EE69E9B005E535C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32F089B81EE69E9B005E535C /* Build configuration list for PBXNativeTarget "CodeCollectionUITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +613,7 @@
 				32F089BA1EE69E9B005E535C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
