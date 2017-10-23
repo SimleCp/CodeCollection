@@ -10,14 +10,6 @@
 
 @implementation UIApplication (Extension)
 
-- (NSString *)getAppVersion
-{
-    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
-}
 
-- (NSString *)getAppBuildVersion
-{
-    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
-}
 
 @end

@@ -10,8 +10,6 @@
 
 @interface UIApplication (Extension)
 
-- (NSString *)getAppVersion;
 
-- (NSString *)getAppBuildVersion;
 
 @end
