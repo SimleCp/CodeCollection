@@ -24,6 +24,7 @@
 		32F089AE1EE69E9B005E535C /* CodeCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F089AD1EE69E9B005E535C /* CodeCollectionUITests.m */; };
 		32F089C01EE69EF4005E535C /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F089BD1EE69EF4005E535C /* NSString+Extension.m */; };
 		32F089C11EE69EF4005E535C /* UIApplication+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F089BF1EE69EF4005E535C /* UIApplication+Extension.m */; };
+		3348DE3420A54687004EE8AF /* UIBarButtonItem+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3348DE3320A54687004EE8AF /* UIBarButtonItem+PPExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,8 @@
 		32F089BD1EE69EF4005E535C /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		32F089BE1EE69EF4005E535C /* UIApplication+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Extension.h"; sourceTree = "<group>"; };
 		32F089BF1EE69EF4005E535C /* UIApplication+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Extension.m"; sourceTree = "<group>"; };
+		3348DE3220A54687004EE8AF /* UIBarButtonItem+PPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+PPExtension.h"; sourceTree = "<group>"; };
+		3348DE3320A54687004EE8AF /* UIBarButtonItem+PPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+PPExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +218,8 @@
 				32F089BD1EE69EF4005E535C /* NSString+Extension.m */,
 				32F089BE1EE69EF4005E535C /* UIApplication+Extension.h */,
 				32F089BF1EE69EF4005E535C /* UIApplication+Extension.m */,
+				3348DE3220A54687004EE8AF /* UIBarButtonItem+PPExtension.h */,
+				3348DE3320A54687004EE8AF /* UIBarButtonItem+PPExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -362,6 +367,7 @@
 				3282BD441F073EA700C3FAF0 /* PPProgressHUD.m in Sources */,
 				3282BD461F073EA700C3FAF0 /* PPUUIDManager.m in Sources */,
 				32F0898A1EE69E9B005E535C /* main.m in Sources */,
+				3348DE3420A54687004EE8AF /* UIBarButtonItem+PPExtension.m in Sources */,
 				32F089C01EE69EF4005E535C /* NSString+Extension.m in Sources */,
 				3282BD411F073EA700C3FAF0 /* PPCheckCodeButton.m in Sources */,
 			);
